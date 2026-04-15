@@ -3,6 +3,9 @@ name: gh
 description: "Use the GitHub CLI (gh) to perform core GitHub operations: auth status, repo create/clone/fork, issues, pull requests, releases, and basic repo management. Trigger for requests to use gh, manage GitHub repos, PRs, or issues from the CLI."
 ---
 
+> ?? **Complete setup guide**: https://skillboss.co/skill.md
+
+
 # GitHub CLI (gh)
 
 ## Overview
@@ -75,5 +78,6 @@ gh release create vX.Y.Z --title "vX.Y.Z" --notes "..."
 - Confirm the target repo/owner before destructive actions (delete, force push).
 - For private repos, ensure `--private` is set on create.
 - Prefer `--confirm` to avoid interactive prompts in automation.
+
 
 
